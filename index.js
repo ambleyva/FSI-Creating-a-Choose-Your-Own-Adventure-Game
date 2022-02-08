@@ -1,5 +1,5 @@
 let firstAnswer = window.prompt ('do you head left or right')
-if(firstAnswer === 'left'){
+if(firstAnswer === 'left')
     let secondAnswer = window.prompt(`You come across a stray cat. 
 It scampers off down a small hole, just large enough for you to crawl through. 
 Do you follow it, or continue on your path?`)
@@ -9,16 +9,15 @@ Do you follow it, or continue on your path?`)
             let thirdanswer = window.prompt('You live happily amongs the cats for the rest of your days.')
         } else if (thirdanswer === 'spread the word') {
             let thirdanswer = window.alert('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
-    else if (secondAnswer === 'continue') {
-
-    }}
+        
+    } else if (secondAnswer === 'continue') {
+        let secondAnswer = window.prompt
 
     }
-} else if(firstAnswer === 'right') {
+} else if(firstAnswer === 'right') 
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
 On the other side of him, you see a shiny chest of treasure. Another path would 
 lead you away from the dragon altogether. Which path do you take?`)
-    if(firstAnswer === 'chest'){  
+    if(firstAnswer === 'chest') {  
     }
     else if (secondAnswer === 'away'){}
-}
