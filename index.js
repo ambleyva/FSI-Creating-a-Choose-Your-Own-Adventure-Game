@@ -10,8 +10,8 @@ Do you follow it, or continue on your path?`)
         } else if (thirdanswer === 'spread the word') {
             let thirdanswer = window.alert('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         
-    } else if (secondAnswer === 'continue') {
-        let secondAnswer = window.prompt
+    } if (secondAnswer === 'continue') {
+        let secondAnswer = window.prompt( 'You caome across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up towards the light. Whih do you take?')
 
     }
 } else if(firstAnswer === 'right') 
